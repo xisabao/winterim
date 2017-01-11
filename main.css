@@ -1,0 +1,185 @@
+body {
+  font-family: 'Lora', serif;
+  color: #444;
+  background-color: #fff;
+}
+h2 {
+  font-size: 5em;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+}
+
+h3 {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #81b9f4;
+}
+
+
+#hero-image {
+  height: 100vh;
+  background: url('images/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  display: -webkit-flex;
+  text-align: center;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-justify-content: center;
+}
+
+nav {
+  margin: auto;
+  height: 5em;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  float: left;
+}
+
+nav ul li a {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: block;
+  margin-right: 20px;
+}
+
+
+ .wrapper {
+  margin: auto;
+}
+
+#hero-image .wrapper {
+    width: 70%;
+    height: 60%;
+}
+
+.primary-content {
+  background-color: #FFF;
+  padding: 80px 0;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-justify-content: center;
+
+}
+
+.primary-content h3 {
+  padding: 0 0  20px 0;
+  text-align: center;
+}
+
+.primary-content p {
+  padding: 20px 60px;
+  line-height: 1.5em;
+}
+
+.slideshow {
+  margin: 30px auto;
+  position: relative;
+  padding: 10px;
+  width: 80%; 
+}
+.slideshow > div {
+  position: absolute;
+}
+
+.slideshow img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container {
+  position: relative;
+  width: 80%;
+  margin: 40px auto;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.features {
+  background-color: #EEE;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   padding: 20px;
+}
+
+.feature-box {
+  background-color: #FFF;
+  width: 40%;
+  margin: 10px;
+  min-height: 600px;
+  padding: 40px 20px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 400px;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  justify-content: center;
+}
+
+.feature-box h4 {
+  padding-bottom: 20px;
+  text-align: center;
+
+}
+
+.footer {
+  background-color: #EEE;
+  height: 80px;
+  text-align: center;
+}
+
+.footer p {
+  padding-top: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.feature-box p {
+  padding: 0 40px;
+  line-height: 1.5em;
+  min-height: 320px;
+}
+
+.feature-box img {
+  margin-top: 20px;
+  max-height: 280px;
+  height: auto;
+  width: auto;
+}
+.contact {
+  text-align: center;
+}
