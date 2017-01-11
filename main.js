@@ -1,10 +1,9 @@
 $(document).ready(function() {
-    var resizeSlideshow = function resizeSlideshow() {
-      $(".slideshow").css("height", $(".slideshow img").css("height"));
-    }
-
-  resizeSlideshow();
-  $(window).resize(resizeSlideshow);
+  var resizeSlideshow = function resizeSlideshow() {
+        $(".slideshow").css("height", $(".slideshow img").css("height"));
+        console.log("resize ran");
+  }
+  $(window).on("load resize", resizeSlideshow);
   $(".slideshow > div:gt(0)").hide();
 
   setInterval(function() {

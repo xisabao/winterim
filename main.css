@@ -36,11 +36,14 @@ a {
   display: -webkit-flex;
   text-align: center;
   flex-direction: column;
+  -moz-flex-direction: column;
   -webkit-flex-direction: column;
   justify-content: center;
   -webkit-justify-content: center;
+  -moz-justify-content: center;
   align-items: center;
-  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
 }
 
 nav {
@@ -79,12 +82,14 @@ nav ul li a {
   display: flex;
   display: -webkit-flex;
   flex-direction: column;
+  -moz-flex-direction: column;
   -webkit-flex-direction: column;
   justify-content: center;
   -webkit-justify-content: center;
+  -moz-justify-content: center;
   align-items: center;
-  -webkit-justify-content: center;
-
+  -webkit-align-items: center;
+  -moz-align-items: center;
 }
 
 .primary-content h3 {
@@ -143,12 +148,15 @@ nav ul li a {
   flex-basis: 400px;
   display: flex;
   display: -webkit-flex;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
   flex-direction: column;
+  -moz-flex-direction: column;
   -webkit-flex-direction: column;
   justify-content: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
 }
 
 .feature-box h4 {
