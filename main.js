@@ -3,7 +3,8 @@ $(document).ready(function() {
         $(".slideshow").css("height", $(".slideshow img").css("height"));
         console.log("resize ran");
   }
-  $(window).on("load resize", resizeSlideshow);
+  resizeSlideshow();
+  $(window).on("resize", resizeSlideshow);
   $(".slideshow > div:gt(0)").hide();
 
   setInterval(function() {
